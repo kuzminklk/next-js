@@ -1,3 +1,4 @@
 [submodule "app-router/dashboard"]
 	path = app-router/dashboard
 	url = git@github.com:kuzminklk/dashboard.git
+	branch = main
