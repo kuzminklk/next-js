@@ -2,3 +2,4 @@
 	path = app-router/dashboard
 	url = git@github.com:kuzminklk/dashboard.git
 	branch = main
+	update = rebase
