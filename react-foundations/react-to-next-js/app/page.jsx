@@ -1,20 +1,20 @@
-
-
 import { LikeButton } from "./like-button.jsx"
 
-
 function Header({ title }) {
-	return <header><h1>{ title ? title : "Hello, World!"}!</h1></header>
+	return (
+		<header>
+			<h1>{title ? title : "Hello, World!"}!</h1>
+		</header>
+	)
 }
 
 export default function Home() {
-
-	return(
+	return (
 		<html>
 			<body>
-				<Header title="Hello, Properties!"/>
+				<Header title="Hello, Properties!" />
 				<main>
-					<LikeButton/>
+					<LikeButton />
 				</main>
 			</body>
 		</html>

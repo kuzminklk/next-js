@@ -1,9 +1,6 @@
-
-
 "use client"
 
 import { useState } from "react"
-
 
 export function LikeButton() {
 	const [likes, setLikes] = useState(0)
@@ -12,7 +9,5 @@ export function LikeButton() {
 		setLikes(likes + 1)
 	}
 
-	return (
-		<button onClick={ addLike }> Like { likes }</button>
-	)
+	return <button onClick={addLike}> Like {likes}</button>
 }
