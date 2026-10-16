@@ -8,6 +8,16 @@ Detached repository for [Next.js documentation](https://nextjs.org/docs) study m
 
 Part of computer-science study curriculum available in [Notion](https://kuzminklk.notion.site/31154d4de03580d7b5ceca5b187846be)
 
+### Technologies
+
+Development: Visual Studio Code  
+Programming language: JavaScript → TypeScript  
+Environment: Node.js → npm, pnpm  
+Framework: React → Next.js  
+Markup languages: HTML, CSS  
+Formatting: Prettier, Husky, lint-staged, “.vscode/…”, “.editorconfig”  
+Version Control: Git, GitHub
+
 ## Usage
 
 ### Clone
